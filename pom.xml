@@ -43,7 +43,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.4.0</version>
+                <version>3.0.0</version>
                 <extensions>true</extensions>
                 <configuration>
                     <obrRepository>NONE</obrRepository>
@@ -74,7 +74,7 @@
         <dependency>
             <groupId>com.theoryinpractise</groupId>
             <artifactId>clojure.osgi</artifactId>
-            <version>[1.6.0-1]</version>
+            <version>[1.8.0-1]</version>
         </dependency>
         <dependency>
             <!-- http://jayfields.com/expectations/ -->
